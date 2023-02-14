@@ -1,0 +1,43 @@
+body
+{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+#menu-h{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #89ac6c;
+    background-image: url(./img/wikihow!.png);
+    background-repeat: no-repeat;
+    background-position: ;
+    background-size:40px;
+}
+
+#menu-h li{
+    display: inline;
+    padding: 20px;
+}
+
+#menu-h li a{
+    display: inline;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .6s;
+    color: rgb(77, 74, 74);
+}
+
+#menu-h li a:hover{
+    background-color: #6a796a;
+}
+#menu-h li:last-child a{
+    float: right;
+    background-color: #89ac6c;
+}
+body {
+    background-color: rgb(51, 51, 51);
+    background-repeat: no-repeat; 
+    background-size: 100%;
+}
